@@ -3,73 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja stranica - About</title>
+    <title>Natalia Zekić - Projektni Zadatak 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
-     <nav class="navigacija">
-      <div class="navbar">
-        <a href="index.html">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="https://www.w3schools.com/">W3SCHOOL</a>
-        <a href="dokumenti/mojRad.pdf">MOJ RAD</a>
+    <header>
+        <a href="index.html" class="logo"><img src="slike/logo.png" alt="">
 
-      </div>
-    </nav>
-     <h1>Portfolio Radova</h1>
-      <div class="container"> 
+            <nav class="navbar">
+                <ul>
+                    <li><a  href="index.html">HOME</a></li>
+                    <li><a class="active" href="o_meni.html">ABOUT</a></li>
+                    <li><a href="vjezbe.html">VJEŽBE</a></li>
+                    <li><a href="video.html">VIDEO</a></li>
+                </ul>
+            </nav>
+    </header>
 
-  
-  <div class="column">
-    <img src="slike/1.jpg" style="width:100%">
-    <img src="slike/3.jpg" style="width:100%">
-    <img src="slike/6.jpg" style="width:100%">
-    <img src="slike/grb.jpg" style="width:100%">
-    <img src="slike/ws1.jpg" style="width:100%">
+    <section class="homeOstalo">
+        <h1>O meni</h1>
+    </section>
 
-  </div> 
-   
-  <div class="column">
-    <img src="slike/2.jpg" style="width:100%">
-    <img src="slike/4.jpg" style="width:100%">
-    <img src="slike/8.jpg" style="width:100%">
-    <img src="slike/logo.jpg" style="width:100%">
-    <img src="slike/ws2.jpg" style="width:100%">
+       <section class="omeni-container" id="about">
+        <div class="omeni aboutme" >
+            <div class="pfp">
+                <img src="slike/ja.jpg" />
+            </div>
+            <div class="podaci" >
+                <h1>Natalia Zekić - DM</h1>
+                <p>Moje ime je Natalia Zekić. Dolazim iz <b><i>Žepča, Bosna i Hercegovina</i></b>. Studentica sam prve godine na Grafičkom Fakultetu u Zagrebu. Završila sam srednju školu za Web Dizajn u Žepču te se time i bavim u slobodno vrijeme. Također imam nekoliko hobija. Volim čitati, crtati, heklati i igrati video igrice.</p>
+                <a href="dokumenti/portfolio.pdf" style="color: #634f74; text-decoration: none;" target="_blank"><b>Moj portfolio</b></a>
+                 <h4 style="margin-top: 5px;"><mark>Neke od mojih najdražih knjiga:</mark></h4>
+                    <ol>
+                        <li>Six of Crows - Leigh Bardugo</li>
+                        <li>Zločin i kazna - Fjodor Mihajlovič Dostojevski</li>
+                        <li>Gospođa Bovary - Gustave Flaubert</li>
+                        <li>The City of Brass - S. A. Chakraborty</li>
+                    </ol>
+            </div>
+              
+        </div>
+        </section>
 
- 
-  </div>
-  
-  <div class="column">
-    <img src="slike/7.jpg" style="width:100%">
-    <img src="slike/5.jpg" style="width:100%">
-    <img src="slike/9.jpg" style="width:100%">
-    <img src="slike/magazin.jpg" style="width:100%">
-    <img src="slike/ws3.jpg" style="width:100%">
+        <section class="radovi">
+            <h1>Moji radovi</h1>
+            <div class="radovi-container">
+                <img src="radovi/1.jpg" alt="">
+                <img src="radovi/2.jpg" alt="">
+                <img src="radovi/3.jpg" alt="">
 
 
+            </div>
+        </section>
 
-  </div>
-</div>
+        <section class="videoYT">
+            <h1>Pjesma koju volim</h1>
+            <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-e7wiyNO2us?si=2Uo2lM3ICic-GhsZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        </section>
 
-    <h1 class="videoNaslov">Video</h1>
-    <div class="videoContainer">
-      <div class="mojVideo">
-        <video width="400" height="" controls>
-          <source src="slike/video.mp4" type="video/mp4">
-        </video> 
-      </div>
 
-      <div class="ytVideo">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/apbxFunEb6Q?si=9d6uRYwy-k-kSJYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-  </div>
+    <section class="footer">
+        Copyright &#169; <a href="index.html">Natalia Zekić</a> | All Rights Reserved.
+    </section>
 
-    <h1 class="videoNaslov">ZVUK</h1>
-    <div class="zvuk">
-      <audio controls>
-          <source src="dokumenti/zvuk.mp3" type="audio/mp3">
-      </audio>
-    </div>
+
 </body>
 </html>

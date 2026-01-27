@@ -3,66 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja stranica - Home</title>
+    <title>Natalia Zekić - Projektni Zadatak 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
-<body class="homeBody">
-    <nav class="navigacija">
-      <div class="navbar">
-        <a href="#header">HOME</a>
-        <a href="about.html">RADOVI</a>
-        <a href="https://www.w3schools.com/">W3SCHOOL</a>
-        <a href="dokumenti/mojRad.pdf">MOJ RAD</a>
+<body>
 
-      </div>
-    </nav>
+<!-- header -->
 
-    <div class="opis">
-        <h1 class="imePrezime">Natalia Zekić</h1>
-        <h2 class="opisIspod">Moja prva stranica za kolegij Digitalni multimedij. Stranica sadrži nekoliko mojih radova koje sam radila za klijente i školu.</h2>
-    </div>
+    <header>
+        <a href="index.html" class="logo"><img src="slike/logo.png" alt="">
 
-    <div class="omeni-container" id="about">
-        <h1 class="omeninaslov">O meni</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="o_meni.html">ABOUT</a></li>
+                    <li><a href="vjezbe.html">VJEŽBE</a></li>
+                    <li><a href="video.html">VIDEO</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section class="home" id="home">
+        <h1>Natalia Zekić</h1>
+        <h2>Digitalni multimedij</h2>
+    </section>
+
+    <section class="omeni-container" id="about">
+        <h1 class="omeninaslov">Kratko o Meni</h1>
         <div class="omeni" >
             <div class="pfp">
                 <img src="slike/profilepic2.png" />
             </div>
             <div class="podaci" >
-                <p>Moje ime je <b>Natalia Zekić</b>. Dolazim iz <i>Žepča, Bosna i Hercegovina</i>. Studentica sam prve godine na <mark>Grafičkom Fakultetu</mark> u Zagrebu. Završila sam srednju školu za Web Dizajn u Žepču te se time i bavim u slobodno vrijeme.</p>
-                <blockquote>
-                    “Be the change that you wish<br>
-                    to see in the world.”<br>
-                    ― Mahatma Gandhi 
-                </blockquote>
+                <h1>Natalia Zekić - DM</h1>
+                <p>Moje ime je Natalia Zekić. Dolazim iz <b><i>Žepča, Bosna i Hercegovina</i></b>. Ovo je moja web stranica koja sadrži poneku informaciju o meni i moje radove. </p>
+                <a href="o_meni.html"><button class="btn">Saznaj Više</button></a>
+                
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="viseOmeni">
-        <h1>Interesi</h1>
-        <div class="interesiContainer">
 
-                <ul>
-                    <h3>Hobiji</h3>
-                    <li>Čitanje</li>
-                    <li>Crtanje</li>
-                    <li>Heklanje</li>
-                    <li>Gledanje serija</li>
-                </ul>
-                <ol>
-                    <h3>Omiljene knjige</h3>
-                    <li>Six of Crows - Leigh Bardugo</li>
-                    <li>Zločin i kazna - Fjodor Mihajlovič Dostojevski</li>
-                    <li>Gospođa Bovary - Gustave Flaubert</li>
-                    <li>The City of Brass - S. A. Chakraborty</li>
-                </ol>
-            
-        </div>
-        
+    <section class="footer">
+        Copyright &#169; <a href="#">Natalia Zekić</a> | All Rights Reserved.
+    </section>
 
-    </div>
 
-    
 </body>
 </html>
